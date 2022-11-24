@@ -5,7 +5,7 @@
 //  Created by Jihee hwang on 2022/11/24.
 //
 
-import Foundation
+import UIKit
 
 final class OnBoardingViewController: ViewController {
     

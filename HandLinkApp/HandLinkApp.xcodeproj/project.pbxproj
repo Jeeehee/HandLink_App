@@ -15,6 +15,14 @@
 		7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7369226A292DC361005D272B /* CoreML_model.mlmodel */; };
 		736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2634292F39A8000A8388 /* AppCoordinator.swift */; };
 		736B2637292F3AAA000A8388 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2636292F3AAA000A8388 /* OnBoardingViewController.swift */; };
+		736B2642292F3D34000A8388 /* SCDream4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B263E292F3D34000A8388 /* SCDream4.otf */; };
+		736B2643292F3D34000A8388 /* SCDream5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B263F292F3D34000A8388 /* SCDream5.otf */; };
+		736B2644292F3D34000A8388 /* SCDream6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2640292F3D34000A8388 /* SCDream6.otf */; };
+		736B2645292F3D34000A8388 /* SCDream8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2641292F3D34000A8388 /* SCDream8.otf */; };
+		736B2647292F3E0B000A8388 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2646292F3E0B000A8388 /* Font.swift */; };
+		736B264B292F3F7D000A8388 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */; };
+		736B264C292F3F7D000A8388 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */; };
+		736B264D292F3F7D000A8388 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		7369226A292DC361005D272B /* CoreML_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoreML_model.mlmodel; sourceTree = "<group>"; };
 		736B2634292F39A8000A8388 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		736B2636292F3AAA000A8388 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		736B263E292F3D34000A8388 /* SCDream4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream4.otf; sourceTree = "<group>"; };
+		736B263F292F3D34000A8388 /* SCDream5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream5.otf; sourceTree = "<group>"; };
+		736B2640292F3D34000A8388 /* SCDream6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream6.otf; sourceTree = "<group>"; };
+		736B2641292F3D34000A8388 /* SCDream8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream8.otf; sourceTree = "<group>"; };
+		736B2646292F3E0B000A8388 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +105,7 @@
 		7369226D292DC9DC005D272B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				736B263A292F3CED000A8388 /* Common */,
 				7369226F292DC9E6005D272B /* ViewModel */,
 				7369226E292DC9E2005D272B /* View */,
 			);
@@ -114,11 +131,34 @@
 		73692270292DCA08005D272B /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				736B263D292F3D1B000A8388 /* Font */,
 				73692260292DC2CE005D272B /* LaunchScreen.storyboard */,
 				7369225E292DC2CE005D272B /* Assets.xcassets */,
 				73692263292DC2CE005D272B /* Info.plist */,
 			);
 			path = Supporting;
+			sourceTree = "<group>";
+		};
+		736B263A292F3CED000A8388 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				736B2646292F3E0B000A8388 /* Font.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		736B263D292F3D1B000A8388 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */,
+				736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */,
+				736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */,
+				736B263E292F3D34000A8388 /* SCDream4.otf */,
+				736B263F292F3D34000A8388 /* SCDream5.otf */,
+				736B2640292F3D34000A8388 /* SCDream6.otf */,
+				736B2641292F3D34000A8388 /* SCDream8.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +219,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736B2645292F3D34000A8388 /* SCDream8.otf in Resources */,
+				736B2644292F3D34000A8388 /* SCDream6.otf in Resources */,
+				736B264B292F3F7D000A8388 /* NotoSansKR-Medium.otf in Resources */,
+				736B2642292F3D34000A8388 /* SCDream4.otf in Resources */,
+				736B264D292F3F7D000A8388 /* NotoSansKR-Bold.otf in Resources */,
 				73692262292DC2CE005D272B /* LaunchScreen.storyboard in Resources */,
 				7369225F292DC2CE005D272B /* Assets.xcassets in Resources */,
+				736B264C292F3F7D000A8388 /* NotoSansKR-Regular.otf in Resources */,
+				736B2643292F3D34000A8388 /* SCDream5.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +240,7 @@
 			files = (
 				7369225A292DC2CC005D272B /* ViewController.swift in Sources */,
 				73692256292DC2CC005D272B /* AppDelegate.swift in Sources */,
+				736B2647292F3E0B000A8388 /* Font.swift in Sources */,
 				736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */,
 				736B2637292F3AAA000A8388 /* OnBoardingViewController.swift in Sources */,
 				7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */,
