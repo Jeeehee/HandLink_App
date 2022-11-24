@@ -23,6 +23,7 @@
 		736B264B292F3F7D000A8388 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */; };
 		736B264C292F3F7D000A8388 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */; };
 		736B264D292F3F7D000A8388 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */; };
+		736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B264F292F4045000A8388 /* Extension+UIColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		736B264F292F4045000A8388 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				7369226C292DC8DD005D272B /* CoreML_Models */,
 				73692269292DC331005D272B /* Application */,
 				7369226D292DC9DC005D272B /* Presentation */,
+				736B264E292F4030000A8388 /* Extension */,
 				73692270292DCA08005D272B /* Supporting */,
 			);
 			path = HandLinkApp;
@@ -159,6 +162,14 @@
 				736B2641292F3D34000A8388 /* SCDream8.otf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		736B264E292F4030000A8388 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				736B264F292F4045000A8388 /* Extension+UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 				736B2637292F3AAA000A8388 /* OnBoardingViewController.swift in Sources */,
 				7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */,
 				73692258292DC2CC005D272B /* SceneDelegate.swift in Sources */,
+				736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
