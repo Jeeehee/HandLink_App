@@ -5,15 +5,13 @@
 //  Created by Jihee hwang on 2022/11/24.
 //
 
-import Foundation
-
-protocol Coordinator: AnyObject {
-    func start() -> ViewController
-}
+import UIKit
 
 final class AppCoordinator: Coordinator {
-    func start() -> ViewController {
-        let onBoardingViewController = OnBoardingViewController()
-        return onBoardingViewController
+    var childCoordinators = [Coordinator]()
+    
+    func start() -> UIViewController {
+        let startViewController = FirstOnBoardingViewController()
+        return startViewController
     }
 }
