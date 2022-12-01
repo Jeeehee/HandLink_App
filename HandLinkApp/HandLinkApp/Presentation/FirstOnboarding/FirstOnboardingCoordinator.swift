@@ -9,22 +9,18 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-protocol Navigation {
-    var didTapSkipButton: PublishRelay<Void> { get }
-}
-
 final class FirstOnboardingCoordinator: BaseCoordinator, Navigation {
     private let disposeBag = DisposeBag()
     
     var childCoordinators = [BaseCoordinator]()
     var navigationController: UINavigationController
     
-    var didTapSkipButton = PublishRelay<Void>()
+    var didTapNextButton = PublishRelay<Void>()
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
         
-        didTapSkipButton
+        didTapNextButton
             .bind(onNext: start)
             .disposed(by: disposeBag)
     }

@@ -6,8 +6,8 @@
 //
 
 import Foundation
-import RxCocoa
 import RxSwift
+import RxCocoa
 
 struct FirstOnBoarding {
     let image: String
@@ -15,11 +15,11 @@ struct FirstOnBoarding {
     let description: String
 }
 
-struct FirstOnBoardingViewModel: FirstOnBoardingViewModelProtocol {
+struct FirstOnBoardingViewModel: OnBoardingViewModelProtocol {
     private let disposeBag = DisposeBag()
     
-    var action: FirstOnBoardingViewModelAction { self }
-    var state: FirstOnBoardingViewModelState { self }
+    var action: OnBoardingViewModelAction { self }
+    var state: OnBoardingViewModelState { self }
     
     var showHomeView = PublishRelay<Void>()
     var showNextView = PublishRelay<Void>()
@@ -37,7 +37,7 @@ struct FirstOnBoardingViewModel: FirstOnBoardingViewModelProtocol {
             .asDriver(onErrorRecover: { _ in .empty() })
         
         showNextView
-            .bind(to: navigation.didTapSkipButton)
+            .bind(to: navigation.didTapNextButton)
             .disposed(by: disposeBag)
     }
 }
