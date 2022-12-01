@@ -35,7 +35,6 @@
 		73FC86442935E9180024FA82 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86432935E9180024FA82 /* BaseCoordinator.swift */; };
 		73FC86462936082E0024FA82 /* FirstOnboardingViewModelModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86452936082E0024FA82 /* FirstOnboardingViewModelModelProtocol.swift */; };
 		73FC864929360B8C0024FA82 /* SecondOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864829360B8C0024FA82 /* SecondOnboardingCoordinator.swift */; };
-		73FC864D29360E3F0024FA82 /* FirstOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864C29360E3F0024FA82 /* FirstOnBoarding.swift */; };
 		73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */; };
 		73FC865329389EF50024FA82 /* FirstOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865229389EF50024FA82 /* FirstOnboardingCoordinator.swift */; };
 		73FC86552938C23C0024FA82 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86542938C23C0024FA82 /* Extension+UIButton.swift */; };
@@ -68,7 +67,6 @@
 		73FC86432935E9180024FA82 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		73FC86452936082E0024FA82 /* FirstOnboardingViewModelModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingViewModelModelProtocol.swift; sourceTree = "<group>"; };
 		73FC864829360B8C0024FA82 /* SecondOnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingCoordinator.swift; sourceTree = "<group>"; };
-		73FC864C29360E3F0024FA82 /* FirstOnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoarding.swift; sourceTree = "<group>"; };
 		73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingViewController.swift; sourceTree = "<group>"; };
 		73FC865229389EF50024FA82 /* FirstOnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingCoordinator.swift; sourceTree = "<group>"; };
 		73FC86542938C23C0024FA82 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
@@ -234,17 +232,8 @@
 		73FC864A29360C040024FA82 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				73FC864B29360E1D0024FA82 /* Entities */,
 			);
 			path = Domain;
-			sourceTree = "<group>";
-		};
-		73FC864B29360E1D0024FA82 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-				73FC864C29360E3F0024FA82 /* FirstOnBoarding.swift */,
-			);
-			path = Entities;
 			sourceTree = "<group>";
 		};
 		73FC864E29388F780024FA82 /* SecondOnboarding */ = {
@@ -366,7 +355,6 @@
 				73692258292DC2CC005D272B /* SceneDelegate.swift in Sources */,
 				73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */,
 				736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */,
-				73FC864D29360E3F0024FA82 /* FirstOnBoarding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
