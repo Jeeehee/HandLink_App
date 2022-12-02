@@ -9,7 +9,6 @@ import UIKit
 import SnapKit
 
 final class SecondOnboardingViewController: UIViewController {
-    private let customView = FirstOnboardingView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,10 +16,6 @@ final class SecondOnboardingViewController: UIViewController {
     }
     
     private func layout() {
-        view.addSubview(customView)
         
-        customView.snp.makeConstraints {
-            $0.edges.equalToSuperview()
-        }
     }
 }
