@@ -25,14 +25,14 @@ final class SecondOnBoardingView: UIView {
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.NotoSans.medium.name, size: 23)
+        label.font = .init(name: Font.NotoSans.medium, size: 23)
         label.textColor = .handLink_black
         return label
     }()
     
     let descriptionLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.NotoSans.regular.name, size: 18)
+        label.font = .init(name: Font.NotoSans.regular, size: 18)
         label.textColor = .handLink_black
         return label
     }()

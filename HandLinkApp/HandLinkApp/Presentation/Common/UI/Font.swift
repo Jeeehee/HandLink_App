@@ -8,33 +8,16 @@
 import UIKit
 
 struct Font {
-    enum SCDream: String {
-        case scDream4
-        case scDream5
-        case scDream6
-        case scDream8
-        
-        var name: String {
-            switch self {
-            case .scDream4: return "SCDream4"
-            case .scDream5: return "SCDream5"
-            case .scDream6: return "SCDream6"
-            case .scDream8: return "SCDream8"
-            }
-        }
+    enum SCDream {
+        static let scDream4 = "S-CoreDream-4Regular"
+        static let scDream5 = "S-CoreDream-5Medium"
+        static let scDream6 = "S-CoreDream-6Bold"
+        static let scDream8 = "S-CoreDream-8Heavy"
     }
     
-    enum NotoSans: String {
-        case bold
-        case medium
-        case regular
-        
-        var name: String {
-            switch self {
-            case .bold: return "NotoSansKR-Bold"
-            case .medium: return "NotoSansKR-Medium"
-            case .regular: return "NotoSansKR-Regular"
-            }
-        }
+    enum NotoSans {
+        static let bold = "NotoSansKR-Bold"
+        static let medium = "NotoSansKR-Medium"
+        static let regular = "NotoSansKR-Regular"
     }
 }

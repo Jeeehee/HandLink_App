@@ -32,7 +32,7 @@ struct FirstOnBoardingViewModel: OnBoardingViewModelProtocol {
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         
-        description = BehaviorRelay<String>(value: "닿다는 농인과의 소통을 위해 만들어졌습니다.")
+        description = BehaviorRelay<String>(value: "닿다는 농인과의 소통을 위해 만들어졌습니다")
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         

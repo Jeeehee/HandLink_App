@@ -20,9 +20,9 @@ final class FirstOnBoardingCoordinator: BaseCoordinator, Navigation {
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
         
-        didTapNextButton
-            .bind(onNext: start)
-            .disposed(by: disposeBag)
+//        didTapNextButton
+//            .bind(onNext: start)
+//            .disposed(by: disposeBag)
     }
     
     func start() {

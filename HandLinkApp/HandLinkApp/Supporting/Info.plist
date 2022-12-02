@@ -4,13 +4,13 @@
 <dict>
 	<key>UIAppFonts</key>
 	<array>
+		<string>NotoSansKR-Bold.otf</string>
+		<string>NotoSansKR-Medium.otf</string>
+		<string>NotoSansKR-Regular.otf</string>
 		<string>SCDream4.otf</string>
 		<string>SCDream5.otf</string>
 		<string>SCDream6.otf</string>
 		<string>SCDream8.otf</string>
-		<string>NotoSansKR-Bold.otf</string>
-		<string>NotoSansKR-Medium.otf</string>
-		<string>NotoSansKR-Regular.otf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

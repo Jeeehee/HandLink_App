@@ -11,7 +11,7 @@ final class FirstOnBoardingView: UIView {
     private let contenStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.spacing = 20
+        stackView.spacing = 10
         stackView.alignment = .center
         return stackView
     }()
@@ -32,27 +32,27 @@ final class FirstOnBoardingView: UIView {
     
     let titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.SCDream.scDream8.name, size: 30)
+        label.font = .init(name: Font.SCDream.scDream8, size: 30)
         label.textColor = .handLink_black
         return label
     }()
     
     let descriptionLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.NotoSans.regular.name, size: 18)
+        label.font = .init(name: Font.NotoSans.regular, size: 18)
         label.textColor = .handLink_black
         return label
     }()
     
     let skipButton: UIButton = {
-        var config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4.name, 13)
+        var config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4, 13)
         config.baseForegroundColor = .gray
         let button = UIButton(configuration: config)
         return button
     }()
     
     let nextButton: UIButton = {
-        var config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream8.name, 13)
+        var config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream8, 13)
         config.baseForegroundColor = .black
         let button = UIButton(configuration: config)
         return button
