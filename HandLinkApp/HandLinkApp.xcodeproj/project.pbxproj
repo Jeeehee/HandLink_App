@@ -30,14 +30,15 @@
 		736B265D292F5C21000A8388 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B265C292F5C21000A8388 /* Vision.framework */; };
 		736B265F292F5C30000A8388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B265E292F5C30000A8388 /* AVFoundation.framework */; };
 		736B2661292F5C36000A8388 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B2660292F5C35000A8388 /* AVKit.framework */; };
+		7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */; };
 		73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondViewModel.swift */; };
-		73FC86402934B3700024FA82 /* FirstOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnboardingView.swift */; };
+		73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */; };
 		73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */; };
 		73FC86442935E9180024FA82 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86432935E9180024FA82 /* BaseCoordinator.swift */; };
 		73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86452936082E0024FA82 /* ViewModelProtocol.swift */; };
-		73FC864929360B8C0024FA82 /* SecondOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864829360B8C0024FA82 /* SecondOnboardingCoordinator.swift */; };
+		73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */; };
 		73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */; };
-		73FC865329389EF50024FA82 /* FirstOnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865229389EF50024FA82 /* FirstOnboardingCoordinator.swift */; };
+		73FC865329389EF50024FA82 /* FirstOnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */; };
 		73FC86552938C23C0024FA82 /* Extension+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86542938C23C0024FA82 /* Extension+UIButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,14 +64,15 @@
 		736B265C292F5C21000A8388 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		736B265E292F5C30000A8388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		736B2660292F5C35000A8388 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingView.swift; sourceTree = "<group>"; };
 		73EFBFE62938EA6D0000687A /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
-		73FC863F2934B3700024FA82 /* FirstOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingView.swift; sourceTree = "<group>"; };
+		73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingViewModel.swift; sourceTree = "<group>"; };
 		73FC86432935E9180024FA82 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		73FC86452936082E0024FA82 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
-		73FC864829360B8C0024FA82 /* SecondOnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingCoordinator.swift; sourceTree = "<group>"; };
+		73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingViewController.swift; sourceTree = "<group>"; };
-		73FC865229389EF50024FA82 /* FirstOnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardingCoordinator.swift; sourceTree = "<group>"; };
+		73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		73FC86542938C23C0024FA82 /* Extension+UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIButton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,8 +147,8 @@
 			children = (
 				73EFBFEB2938ED670000687A /* Extension */,
 				736B263A292F3CED000A8388 /* Common */,
-				73FC864E29388F780024FA82 /* SecondOnboarding */,
-				73FC864729360B690024FA82 /* FirstOnboarding */,
+				73FC864E29388F780024FA82 /* SecondOnBoarding */,
+				73FC864729360B690024FA82 /* FirstOnBoarding */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -155,7 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				736B2636292F3AAA000A8388 /* FirstOnBoardingViewController.swift */,
-				73FC863F2934B3700024FA82 /* FirstOnboardingView.swift */,
+				73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -221,6 +223,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7394C2E42939CE45002CDF09 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				73EFBFE62938EA6D0000687A /* SecondViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		73EFBFEA2938ED5F0000687A /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,14 +247,14 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		73FC864729360B690024FA82 /* FirstOnboarding */ = {
+		73FC864729360B690024FA82 /* FirstOnBoarding */ = {
 			isa = PBXGroup;
 			children = (
 				7369226F292DC9E6005D272B /* ViewModel */,
 				7369226E292DC9E2005D272B /* View */,
-				73FC865229389EF50024FA82 /* FirstOnboardingCoordinator.swift */,
+				73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */,
 			);
-			path = FirstOnboarding;
+			path = FirstOnBoarding;
 			sourceTree = "<group>";
 		};
 		73FC864A29360C040024FA82 /* Domain */ = {
@@ -254,20 +264,21 @@
 			path = Domain;
 			sourceTree = "<group>";
 		};
-		73FC864E29388F780024FA82 /* SecondOnboarding */ = {
+		73FC864E29388F780024FA82 /* SecondOnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				7394C2E42939CE45002CDF09 /* ViewModel */,
 				73FC864F29388FC10024FA82 /* View */,
-				73FC864829360B8C0024FA82 /* SecondOnboardingCoordinator.swift */,
+				73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */,
 			);
-			path = SecondOnboarding;
+			path = SecondOnBoarding;
 			sourceTree = "<group>";
 		};
 		73FC864F29388FC10024FA82 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */,
-				73EFBFE62938EA6D0000687A /* SecondViewModel.swift */,
+				7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -360,12 +371,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				73FC86552938C23C0024FA82 /* Extension+UIButton.swift in Sources */,
-				73FC865329389EF50024FA82 /* FirstOnboardingCoordinator.swift in Sources */,
-				73FC864929360B8C0024FA82 /* SecondOnboardingCoordinator.swift in Sources */,
-				73FC86402934B3700024FA82 /* FirstOnboardingView.swift in Sources */,
+				73FC865329389EF50024FA82 /* FirstOnBoardingCoordinator.swift in Sources */,
+				73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */,
+				73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */,
 				73692256292DC2CC005D272B /* AppDelegate.swift in Sources */,
 				73FC86442935E9180024FA82 /* BaseCoordinator.swift in Sources */,
 				736B2647292F3E0B000A8388 /* Font.swift in Sources */,
+				7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */,
 				736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */,
 				73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */,
 				73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */,

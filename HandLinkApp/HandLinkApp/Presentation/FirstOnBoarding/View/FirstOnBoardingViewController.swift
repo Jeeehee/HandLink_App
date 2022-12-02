@@ -11,8 +11,9 @@ import RxSwift
 
 final class FirstOnBoardingViewController: UIViewController {
     private let disposeBag = DisposeBag()
+    private let firstOnboardingView = FirstOnBoardingView()
+    
     private var viewModel: FirstOnBoardingViewModel?
-    private let firstOnboardingView = FirstOnboardingView()
     
     convenience init(viewModel: FirstOnBoardingViewModel) {
         self.init()
@@ -21,9 +22,10 @@ final class FirstOnBoardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        
         layout()
         bind()
-        view.backgroundColor = .white
     }
     
     private func layout() {

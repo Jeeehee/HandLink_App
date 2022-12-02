@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class FirstOnboardingView: UIView {
+final class FirstOnBoardingView: UIView {
     private let contenStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical

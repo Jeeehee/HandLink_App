@@ -16,7 +16,7 @@ final class AppCoordinator: BaseCoordinator {
     }
     
     func start() {
-        let child = FirstOnboardingCoordinator(navigationController: navigationController)
+        let child = FirstOnBoardingCoordinator(navigationController: navigationController)
         childCoordinators.append(child)
         child.start()
     }

@@ -1,5 +1,5 @@
 //
-//  FirstOnboardingCoordinator.swift
+//  FirstOnBoardingCoordinator.swift
 //  HandLinkApp
 //
 //  Created by Jihee hwang on 2022/12/01.
@@ -9,7 +9,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-final class FirstOnboardingCoordinator: BaseCoordinator, Navigation {
+final class FirstOnBoardingCoordinator: BaseCoordinator, Navigation {
     private let disposeBag = DisposeBag()
     
     var childCoordinators = [BaseCoordinator]()
