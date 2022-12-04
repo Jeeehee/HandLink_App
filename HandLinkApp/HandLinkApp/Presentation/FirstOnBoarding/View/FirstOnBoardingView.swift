@@ -11,7 +11,7 @@ final class FirstOnBoardingView: UIView {
     private let contenStackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.spacing = 10
+        stackView.spacing = 40
         stackView.alignment = .center
         return stackView
     }()
@@ -30,30 +30,30 @@ final class FirstOnBoardingView: UIView {
         return imageView
     }()
     
-    let titleLabel: UILabel = {
+    lazy var titleLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.SCDream.scDream8, size: 30)
+        label.font = .init(name: Font.SCDream.scDream6, size: 28)
         label.textColor = .handLink_black
         return label
     }()
     
     let descriptionLabel: UILabel = {
         let label = UILabel()
-        label.font = .init(name: Font.NotoSans.regular, size: 18)
+        label.font = .init(name: Font.NotoSans.regular, size: 16)
         label.textColor = .handLink_black
         return label
     }()
     
     let skipButton: UIButton = {
-        var config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4, 13)
+        var config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4, 14)
         config.baseForegroundColor = .gray
         let button = UIButton(configuration: config)
         return button
     }()
     
     let nextButton: UIButton = {
-        var config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream8, 13)
-        config.baseForegroundColor = .black
+        var config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream6, 14)
+        config.baseForegroundColor = .primary
         let button = UIButton(configuration: config)
         return button
     }()
@@ -84,8 +84,11 @@ final class FirstOnBoardingView: UIView {
             $0.height.equalTo(230)
         }
         
+        contenStackView.setCustomSpacing(10, after: titleLabel)
+        
         contenStackView.snp.makeConstraints {
-            $0.centerX.centerY.equalToSuperview()
+            $0.centerX.equalToSuperview()
+            $0.centerY.equalTo(safeAreaLayoutGuide).offset(-50)
         }
         
         buttonStackView.snp.makeConstraints {

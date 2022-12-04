@@ -32,7 +32,9 @@ final class FirstOnBoardingViewController: UIViewController {
         view.addSubview(firstOnboardingView)
         
         firstOnboardingView.snp.makeConstraints {
-            $0.edges.equalToSuperview()
+            $0.top.equalTo(view.safeAreaLayoutGuide)
+            $0.leading.equalTo(view.safeAreaLayoutGuide).offset(20)
+            $0.bottom.trailing.equalTo(view.safeAreaLayoutGuide).offset(-20)
         }
     }
     
@@ -43,7 +45,10 @@ final class FirstOnBoardingViewController: UIViewController {
 //            .drive(firstOnboardingView)
         
         viewModel.title
-            .drive(firstOnboardingView.titleLabel.rx.text)
+            .map { text in
+                return String.changePartialColorInText(text)
+            }
+            .drive(firstOnboardingView.titleLabel.rx.attributedText)
             .disposed(by: disposeBag)
         
         viewModel.description

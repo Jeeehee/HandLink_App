@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73012EBD293A078D00F8F9E0 /* SCDream5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EB9293A078D00F8F9E0 /* SCDream5.otf */; };
+		73012EBE293A078D00F8F9E0 /* SCDream6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EBA293A078D00F8F9E0 /* SCDream6.otf */; };
+		73012EBF293A078D00F8F9E0 /* SCDream8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EBB293A078D00F8F9E0 /* SCDream8.otf */; };
+		73012EC0293A078D00F8F9E0 /* SCDream4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EBC293A078D00F8F9E0 /* SCDream4.otf */; };
+		73012EC6293A08D100F8F9E0 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EC1293A08D000F8F9E0 /* NotoSansKR-Medium.otf */; };
+		73012EC7293A08D100F8F9E0 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EC2293A08D000F8F9E0 /* NotoSansKR-Bold.otf */; };
+		73012EC9293A08D100F8F9E0 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 73012EC4293A08D100F8F9E0 /* NotoSansKR-Regular.otf */; };
 		73692256292DC2CC005D272B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73692255292DC2CC005D272B /* AppDelegate.swift */; };
 		73692258292DC2CC005D272B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73692257292DC2CC005D272B /* SceneDelegate.swift */; };
 		7369225F292DC2CE005D272B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7369225E292DC2CE005D272B /* Assets.xcassets */; };
@@ -14,14 +21,7 @@
 		7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7369226A292DC361005D272B /* CoreML_model.mlmodel */; };
 		736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2634292F39A8000A8388 /* AppCoordinator.swift */; };
 		736B2637292F3AAA000A8388 /* FirstOnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2636292F3AAA000A8388 /* FirstOnBoardingViewController.swift */; };
-		736B2642292F3D34000A8388 /* SCDream4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B263E292F3D34000A8388 /* SCDream4.otf */; };
-		736B2643292F3D34000A8388 /* SCDream5.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B263F292F3D34000A8388 /* SCDream5.otf */; };
-		736B2644292F3D34000A8388 /* SCDream6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2640292F3D34000A8388 /* SCDream6.otf */; };
-		736B2645292F3D34000A8388 /* SCDream8.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2641292F3D34000A8388 /* SCDream8.otf */; };
 		736B2647292F3E0B000A8388 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B2646292F3E0B000A8388 /* Font.swift */; };
-		736B264B292F3F7D000A8388 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */; };
-		736B264C292F3F7D000A8388 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */; };
-		736B264D292F3F7D000A8388 /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */; };
 		736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B264F292F4045000A8388 /* Extension+UIColor.swift */; };
 		736B2653292F5AB0000A8388 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 736B2652292F5AB0000A8388 /* SnapKit */; };
 		736B2656292F5BE4000A8388 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 736B2655292F5BE4000A8388 /* RxCocoa */; };
@@ -30,6 +30,7 @@
 		736B265D292F5C21000A8388 /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B265C292F5C21000A8388 /* Vision.framework */; };
 		736B265F292F5C30000A8388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B265E292F5C30000A8388 /* AVFoundation.framework */; };
 		736B2661292F5C36000A8388 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B2660292F5C35000A8388 /* AVKit.framework */; };
+		7388CAEC293C5F560011722B /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388CAEB293C5F560011722B /* Extension+String.swift */; };
 		7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */; };
 		73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondViewModel.swift */; };
 		73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */; };
@@ -43,6 +44,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73012EB9293A078D00F8F9E0 /* SCDream5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream5.otf; sourceTree = "<group>"; };
+		73012EBA293A078D00F8F9E0 /* SCDream6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream6.otf; sourceTree = "<group>"; };
+		73012EBB293A078D00F8F9E0 /* SCDream8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream8.otf; sourceTree = "<group>"; };
+		73012EBC293A078D00F8F9E0 /* SCDream4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream4.otf; sourceTree = "<group>"; };
+		73012EC1293A08D000F8F9E0 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		73012EC2293A08D000F8F9E0 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		73012EC4293A08D100F8F9E0 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
 		73692252292DC2CC005D272B /* HandLinkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandLinkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73692255292DC2CC005D272B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73692257292DC2CC005D272B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,18 +60,12 @@
 		7369226A292DC361005D272B /* CoreML_model.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CoreML_model.mlmodel; sourceTree = "<group>"; };
 		736B2634292F39A8000A8388 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		736B2636292F3AAA000A8388 /* FirstOnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingViewController.swift; sourceTree = "<group>"; };
-		736B263E292F3D34000A8388 /* SCDream4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream4.otf; sourceTree = "<group>"; };
-		736B263F292F3D34000A8388 /* SCDream5.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream5.otf; sourceTree = "<group>"; };
-		736B2640292F3D34000A8388 /* SCDream6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream6.otf; sourceTree = "<group>"; };
-		736B2641292F3D34000A8388 /* SCDream8.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SCDream8.otf; sourceTree = "<group>"; };
 		736B2646292F3E0B000A8388 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
-		736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
-		736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
-		736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
 		736B264F292F4045000A8388 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		736B265C292F5C21000A8388 /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = System/Library/Frameworks/Vision.framework; sourceTree = SDKROOT; };
 		736B265E292F5C30000A8388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		736B2660292F5C35000A8388 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		7388CAEB293C5F560011722B /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
 		7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingView.swift; sourceTree = "<group>"; };
 		73EFBFE62938EA6D0000687A /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73012ECB293A0C7000F8F9E0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				73012EC2293A08D000F8F9E0 /* NotoSansKR-Bold.otf */,
+				73012EC1293A08D000F8F9E0 /* NotoSansKR-Medium.otf */,
+				73012EC4293A08D100F8F9E0 /* NotoSansKR-Regular.otf */,
+				73012EBC293A078D00F8F9E0 /* SCDream4.otf */,
+				73012EB9293A078D00F8F9E0 /* SCDream5.otf */,
+				73012EBA293A078D00F8F9E0 /* SCDream6.otf */,
+				73012EBB293A078D00F8F9E0 /* SCDream8.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		73692249292DC2CC005D272B = {
 			isa = PBXGroup;
 			children = (
@@ -118,7 +134,6 @@
 				73FC864A29360C040024FA82 /* Domain */,
 				73692269292DC331005D272B /* Application */,
 				7369226D292DC9DC005D272B /* Presentation */,
-				736B264E292F4030000A8388 /* Extension */,
 				73692270292DCA08005D272B /* Supporting */,
 			);
 			path = HandLinkApp;
@@ -145,7 +160,7 @@
 		7369226D292DC9DC005D272B /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				73EFBFEB2938ED670000687A /* Extension */,
+				736B264E292F4030000A8388 /* Extension */,
 				736B263A292F3CED000A8388 /* Common */,
 				73FC864E29388F780024FA82 /* SecondOnBoarding */,
 				73FC864729360B690024FA82 /* FirstOnBoarding */,
@@ -173,10 +188,10 @@
 		73692270292DCA08005D272B /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
-				736B263D292F3D1B000A8388 /* Font */,
+				73692263292DC2CE005D272B /* Info.plist */,
 				73692260292DC2CE005D272B /* LaunchScreen.storyboard */,
 				7369225E292DC2CE005D272B /* Assets.xcassets */,
-				73692263292DC2CE005D272B /* Info.plist */,
+				73012ECB293A0C7000F8F9E0 /* Font */,
 			);
 			path = Supporting;
 			sourceTree = "<group>";
@@ -191,24 +206,12 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		736B263D292F3D1B000A8388 /* Font */ = {
-			isa = PBXGroup;
-			children = (
-				736B264A292F3F7D000A8388 /* NotoSansKR-Bold.otf */,
-				736B2648292F3F7D000A8388 /* NotoSansKR-Medium.otf */,
-				736B2649292F3F7D000A8388 /* NotoSansKR-Regular.otf */,
-				736B263E292F3D34000A8388 /* SCDream4.otf */,
-				736B263F292F3D34000A8388 /* SCDream5.otf */,
-				736B2640292F3D34000A8388 /* SCDream6.otf */,
-				736B2641292F3D34000A8388 /* SCDream8.otf */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
 		736B264E292F4030000A8388 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				73FC86542938C23C0024FA82 /* Extension+UIButton.swift */,
 				736B264F292F4045000A8388 /* Extension+UIColor.swift */,
+				7388CAEB293C5F560011722B /* Extension+String.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -237,14 +240,6 @@
 				736B2646292F3E0B000A8388 /* Font.swift */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		73EFBFEB2938ED670000687A /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				73FC86542938C23C0024FA82 /* Extension+UIButton.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		73FC864729360B690024FA82 /* FirstOnBoarding */ = {
@@ -351,15 +346,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				736B2645292F3D34000A8388 /* SCDream8.otf in Resources */,
-				736B2644292F3D34000A8388 /* SCDream6.otf in Resources */,
-				736B264B292F3F7D000A8388 /* NotoSansKR-Medium.otf in Resources */,
-				736B2642292F3D34000A8388 /* SCDream4.otf in Resources */,
-				736B264D292F3F7D000A8388 /* NotoSansKR-Bold.otf in Resources */,
+				73012EC0293A078D00F8F9E0 /* SCDream4.otf in Resources */,
+				73012EBF293A078D00F8F9E0 /* SCDream8.otf in Resources */,
+				73012EC7293A08D100F8F9E0 /* NotoSansKR-Bold.otf in Resources */,
+				73012EC9293A08D100F8F9E0 /* NotoSansKR-Regular.otf in Resources */,
+				73012EC6293A08D100F8F9E0 /* NotoSansKR-Medium.otf in Resources */,
+				73012EBE293A078D00F8F9E0 /* SCDream6.otf in Resources */,
+				73012EBD293A078D00F8F9E0 /* SCDream5.otf in Resources */,
 				73692262292DC2CE005D272B /* LaunchScreen.storyboard in Resources */,
 				7369225F292DC2CE005D272B /* Assets.xcassets in Resources */,
-				736B264C292F3F7D000A8388 /* NotoSansKR-Regular.otf in Resources */,
-				736B2643292F3D34000A8388 /* SCDream5.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +379,7 @@
 				736B2637292F3AAA000A8388 /* FirstOnBoardingViewController.swift in Sources */,
 				73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */,
 				7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */,
+				7388CAEC293C5F560011722B /* Extension+String.swift in Sources */,
 				73692258292DC2CC005D272B /* SceneDelegate.swift in Sources */,
 				73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */,
 				736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */,
@@ -527,7 +523,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6Y9V523M6R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HandLinkApp/Info.plist;
+				INFOPLIST_FILE = HandLinkApp/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -555,7 +551,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6Y9V523M6R;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = HandLinkApp/Info.plist;
+				INFOPLIST_FILE = HandLinkApp/Supporting/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

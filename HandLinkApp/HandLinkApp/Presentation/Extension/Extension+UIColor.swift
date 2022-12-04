@@ -8,6 +8,6 @@
 import UIKit
 
 extension UIColor {
-    static let primary = UIColor(named: "primary")
-    static let handLink_black = UIColor(named: "handLink_black")
+    static let primary = UIColor(named: "Primary")
+    static let handLink_black = UIColor(named: "HandLink_black")
 }

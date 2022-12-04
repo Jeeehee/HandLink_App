@@ -26,7 +26,7 @@ struct SecondOnBoardingViewModel: OnBoardingViewModelProtocol {
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         
-        description = BehaviorRelay<String>(value: "실시간으로 해당 수어의 뜻을 번역해드립니다")
+        description = BehaviorRelay<String>(value: "실시간으로 해당 수어의 뜻을 번역해드립니다.")
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         
