@@ -40,10 +40,7 @@ final class FirstOnBoardingViewController: UIViewController {
     
     private func bind() {
         guard let viewModel = viewModel else { return }
-        
-//        viewModel.image
-//            .drive(firstOnboardingView)
-        
+
         viewModel.title
             .map { text in
                 return String.changePartialColorInText(text)

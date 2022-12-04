@@ -30,7 +30,7 @@ final class FirstOnBoardingView: UIView {
         return imageView
     }()
     
-    lazy var titleLabel: UILabel = {
+    let titleLabel: UILabel = {
         let label = UILabel()
         label.font = .init(name: Font.SCDream.scDream6, size: 28)
         label.textColor = .handLink_black
@@ -45,15 +45,13 @@ final class FirstOnBoardingView: UIView {
     }()
     
     let skipButton: UIButton = {
-        var config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4, 14)
-        config.baseForegroundColor = .gray
+        let config = UIButton.customConfiguration("건너띄기", Font.SCDream.scDream4, 14, .gray)
         let button = UIButton(configuration: config)
         return button
     }()
     
     let nextButton: UIButton = {
-        var config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream6, 14)
-        config.baseForegroundColor = .primary
+        let config = UIButton.customConfiguration("다음으로", Font.SCDream.scDream6, 14, .primary)
         let button = UIButton(configuration: config)
         return button
     }()

@@ -20,14 +20,20 @@ final class FirstOnBoardingCoordinator: BaseCoordinator, Navigation {
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
         
-//        didTapNextButton
-//            .bind(onNext: start)
-//            .disposed(by: disposeBag)
+        didTapNextButton
+            .bind(onNext: presentSecondOnBoardingViewController)
+            .disposed(by: disposeBag)
     }
     
     func start() {
         let viewModel = FirstOnBoardingViewModel(navigation: self)
         let viewController = FirstOnBoardingViewController(viewModel: viewModel)
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
+    func presentSecondOnBoardingViewController() {
+        let viewModel = SecondOnBoardingViewModel(navigation: self)
+        let viewController = SecondOnboardingViewController(viewModel: viewModel)
         navigationController.pushViewController(viewController, animated: true)
     }
 }

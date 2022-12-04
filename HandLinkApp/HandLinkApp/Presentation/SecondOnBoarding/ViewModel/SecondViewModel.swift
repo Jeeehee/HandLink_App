@@ -1,5 +1,5 @@
 //
-//  SecondViewModel.swift
+//  SecondOnBoardingViewModel.swift
 //  HandLinkApp
 //
 //  Created by Jihee hwang on 2022/12/01.
