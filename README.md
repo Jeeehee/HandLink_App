@@ -21,7 +21,7 @@ Deep Learning Model에 대한 자세한 정보는 [HandLink DataSet](https://git
 <br>
 
 #### ✔️ 구현 언어
-- Swift 5.0
+- RxSwift
 
 #### ✔️ 프레임워크 및 라이브러리
 - CoreML
