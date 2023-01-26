@@ -31,11 +31,12 @@
 		736B265F292F5C30000A8388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B265E292F5C30000A8388 /* AVFoundation.framework */; };
 		736B2661292F5C36000A8388 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 736B2660292F5C35000A8388 /* AVKit.framework */; };
 		7388CAEC293C5F560011722B /* Extension+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7388CAEB293C5F560011722B /* Extension+String.swift */; };
+		738BB858298253BA008AD65F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BB857298253BA008AD65F /* BaseCoordinator.swift */; };
+		738BB85B298254C2008AD65F /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BB85A298254C1008AD65F /* DIContainer.swift */; };
 		7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */; };
 		73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondViewModel.swift */; };
 		73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */; };
 		73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */; };
-		73FC86442935E9180024FA82 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86432935E9180024FA82 /* BaseCoordinator.swift */; };
 		73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86452936082E0024FA82 /* ViewModelProtocol.swift */; };
 		73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */; };
 		73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */; };
@@ -66,11 +67,12 @@
 		736B265E292F5C30000A8388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		736B2660292F5C35000A8388 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		7388CAEB293C5F560011722B /* Extension+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+String.swift"; sourceTree = "<group>"; };
+		738BB857298253BA008AD65F /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		738BB85A298254C1008AD65F /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingView.swift; sourceTree = "<group>"; };
 		73EFBFE62938EA6D0000687A /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
 		73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingViewModel.swift; sourceTree = "<group>"; };
-		73FC86432935E9180024FA82 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		73FC86452936082E0024FA82 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
 		73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingViewController.swift; sourceTree = "<group>"; };
@@ -142,9 +144,10 @@
 		73692269292DC331005D272B /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				738BB8562982539C008AD65F /* Coordinator */,
 				73692255292DC2CC005D272B /* AppDelegate.swift */,
 				73692257292DC2CC005D272B /* SceneDelegate.swift */,
-				736B2634292F39A8000A8388 /* AppCoordinator.swift */,
+				738BB85A298254C1008AD65F /* DIContainer.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			children = (
 				736B264E292F4030000A8388 /* Extension */,
 				736B263A292F3CED000A8388 /* Common */,
+				7388CAED293CAAFA0011722B /* Home */,
 				73FC864E29388F780024FA82 /* SecondOnBoarding */,
 				73FC864729360B690024FA82 /* FirstOnBoarding */,
 			);
@@ -200,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				73EFBFEA2938ED5F0000687A /* UI */,
-				73FC86432935E9180024FA82 /* BaseCoordinator.swift */,
 				73FC86452936082E0024FA82 /* ViewModelProtocol.swift */,
 			);
 			path = Common;
@@ -226,6 +229,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7388CAED293CAAFA0011722B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7388CAEE293CAB050011722B /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7388CAEE293CAB050011722B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		738BB8562982539C008AD65F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				738BB857298253BA008AD65F /* BaseCoordinator.swift */,
+				736B2634292F39A8000A8388 /* AppCoordinator.swift */,
+				73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */,
+				73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		7394C2E42939CE45002CDF09 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,7 +276,6 @@
 			children = (
 				7369226F292DC9E6005D272B /* ViewModel */,
 				7369226E292DC9E2005D272B /* View */,
-				73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */,
 			);
 			path = FirstOnBoarding;
 			sourceTree = "<group>";
@@ -264,7 +292,6 @@
 			children = (
 				7394C2E42939CE45002CDF09 /* ViewModel */,
 				73FC864F29388FC10024FA82 /* View */,
-				73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */,
 			);
 			path = SecondOnBoarding;
 			sourceTree = "<group>";
@@ -370,7 +397,6 @@
 				73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */,
 				73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */,
 				73692256292DC2CC005D272B /* AppDelegate.swift in Sources */,
-				73FC86442935E9180024FA82 /* BaseCoordinator.swift in Sources */,
 				736B2647292F3E0B000A8388 /* Font.swift in Sources */,
 				7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */,
 				736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */,
@@ -380,8 +406,10 @@
 				73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */,
 				7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */,
 				7388CAEC293C5F560011722B /* Extension+String.swift in Sources */,
+				738BB858298253BA008AD65F /* BaseCoordinator.swift in Sources */,
 				73692258292DC2CC005D272B /* SceneDelegate.swift in Sources */,
 				73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */,
+				738BB85B298254C2008AD65F /* DIContainer.swift in Sources */,
 				736B2650292F4045000A8388 /* Extension+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

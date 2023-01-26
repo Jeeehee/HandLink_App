@@ -9,12 +9,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-struct FirstOnBoarding {
-    let image: String
-    let title: String
-    let description: String
-}
-
 struct FirstOnBoardingViewModel: OnBoardingViewModelProtocol {
     private let disposeBag = DisposeBag()
     
