@@ -5,6 +5,9 @@ HandLink 는 농인들과의 소통을 위해 만들어진, 실시간 수어 번
 
 해당 신경망 모델을 CoreML Model로 변환해, iOS App에 적용하였습니다.
 
+[왜 LSTM 인가 ▶︎](https://github.com/Jeeehee/HandLink/issues/7)  
+[구현 과정 및 프레임워크 선택 이유 ▶︎](https://github.com/Jeeehee/HandLink/issues/6)
+
 <br>
 
 ## DataSet and Deep Learning Model
