@@ -34,10 +34,13 @@
 		738BB858298253BA008AD65F /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BB857298253BA008AD65F /* BaseCoordinator.swift */; };
 		738BB85B298254C2008AD65F /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738BB85A298254C1008AD65F /* DIContainer.swift */; };
 		7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */; };
-		73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondViewModel.swift */; };
+		73C89DD5298D047B00210C9A /* HomeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD4298D047B00210C9A /* HomeViewCoordinator.swift */; };
+		73C89DD7298D04B100210C9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD6298D04B100210C9A /* HomeViewController.swift */; };
+		73C89DD9298D04E500210C9A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD8298D04E500210C9A /* HomeViewModel.swift */; };
+		73EFBFE72938EA6D0000687A /* SecondOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */; };
 		73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */; };
 		73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */; };
-		73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86452936082E0024FA82 /* ViewModelProtocol.swift */; };
+		73FC86462936082E0024FA82 /* OnBoardingViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86452936082E0024FA82 /* OnBoardingViewModelProtocol.swift */; };
 		73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */; };
 		73FC865129388FE60024FA82 /* SecondOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */; };
 		73FC865329389EF50024FA82 /* FirstOnBoardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */; };
@@ -70,10 +73,13 @@
 		738BB857298253BA008AD65F /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
 		738BB85A298254C1008AD65F /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
 		7394C2E22939CE27002CDF09 /* SecondOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingView.swift; sourceTree = "<group>"; };
-		73EFBFE62938EA6D0000687A /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		73C89DD4298D047B00210C9A /* HomeViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCoordinator.swift; sourceTree = "<group>"; };
+		73C89DD6298D04B100210C9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		73C89DD8298D04E500210C9A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingViewModel.swift; sourceTree = "<group>"; };
 		73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingViewModel.swift; sourceTree = "<group>"; };
-		73FC86452936082E0024FA82 /* ViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelProtocol.swift; sourceTree = "<group>"; };
+		73FC86452936082E0024FA82 /* OnBoardingViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewModelProtocol.swift; sourceTree = "<group>"; };
 		73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingCoordinator.swift; sourceTree = "<group>"; };
 		73FC865029388FE60024FA82 /* SecondOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardingViewController.swift; sourceTree = "<group>"; };
 		73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingCoordinator.swift; sourceTree = "<group>"; };
@@ -204,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				73EFBFEA2938ED5F0000687A /* UI */,
-				73FC86452936082E0024FA82 /* ViewModelProtocol.swift */,
+				73FC86452936082E0024FA82 /* OnBoardingViewModelProtocol.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -240,6 +246,8 @@
 		7388CAEE293CAB050011722B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				73C89DD6298D04B100210C9A /* HomeViewController.swift */,
+				73C89DD8298D04E500210C9A /* HomeViewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -251,6 +259,7 @@
 				736B2634292F39A8000A8388 /* AppCoordinator.swift */,
 				73FC865229389EF50024FA82 /* FirstOnBoardingCoordinator.swift */,
 				73FC864829360B8C0024FA82 /* SecondOnBoardingCoordinator.swift */,
+				73C89DD4298D047B00210C9A /* HomeViewCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -258,7 +267,7 @@
 		7394C2E42939CE45002CDF09 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				73EFBFE62938EA6D0000687A /* SecondViewModel.swift */,
+				73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -392,18 +401,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C89DD5298D047B00210C9A /* HomeViewCoordinator.swift in Sources */,
+				73C89DD9298D04E500210C9A /* HomeViewModel.swift in Sources */,
 				73FC86552938C23C0024FA82 /* Extension+UIButton.swift in Sources */,
 				73FC865329389EF50024FA82 /* FirstOnBoardingCoordinator.swift in Sources */,
 				73FC864929360B8C0024FA82 /* SecondOnBoardingCoordinator.swift in Sources */,
 				73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */,
+				73C89DD7298D04B100210C9A /* HomeViewController.swift in Sources */,
 				73692256292DC2CC005D272B /* AppDelegate.swift in Sources */,
 				736B2647292F3E0B000A8388 /* Font.swift in Sources */,
 				7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */,
 				736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */,
-				73EFBFE72938EA6D0000687A /* SecondViewModel.swift in Sources */,
+				73EFBFE72938EA6D0000687A /* SecondOnBoardingViewModel.swift in Sources */,
 				73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */,
 				736B2637292F3AAA000A8388 /* FirstOnBoardingViewController.swift in Sources */,
-				73FC86462936082E0024FA82 /* ViewModelProtocol.swift in Sources */,
+				73FC86462936082E0024FA82 /* OnBoardingViewModelProtocol.swift in Sources */,
 				7369226B292DC361005D272B /* CoreML_model.mlmodel in Sources */,
 				7388CAEC293C5F560011722B /* Extension+String.swift in Sources */,
 				738BB858298253BA008AD65F /* BaseCoordinator.swift in Sources */,

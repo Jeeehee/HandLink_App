@@ -19,7 +19,6 @@ final class AppCoordinator: BaseCoordinator, Navigation {
     var didTapNextButton = PublishRelay<Void>()
     let diContainer: DIContainer
     
-    
     init(navigationController: UINavigationController, diContainer: DIContainer) {
         self.navigationController = navigationController
         self.diContainer = diContainer
@@ -40,7 +39,10 @@ final class AppCoordinator: BaseCoordinator, Navigation {
 extension AppCoordinator {
     private func bind() {
         didTapNextButton
-            .bind { self.showSecondOnBoardingView() }
+            .withUnretained(self)
+            .bind { owner, _ in
+                owner.showSecondOnBoardingView()
+            }
             .disposed(by: disposeBag)
     }
     
@@ -56,6 +58,8 @@ extension AppCoordinator {
     
     private func showHomeView() {
         removeSecondOnBoardingCoordinator()
+        
+        // TODO: HomeView Coordinator logic
     }
     
     private func removeFirstOnBoardingCoordinator() {
