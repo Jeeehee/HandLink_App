@@ -12,7 +12,7 @@ extension String {
         guard !text.isEmpty else { return nil }
         
         let attributeString = NSMutableAttributedString(string: text)
-        attributeString.addAttribute(.foregroundColor, value: UIColor.primary, range: (text as NSString).range(of: "닿다"))
+        attributeString.addAttribute(.foregroundColor, value: UIColor.primary, range: (text as NSString).range(of: Constant.appName.text))
         
         return attributeString
     }

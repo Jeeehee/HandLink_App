@@ -22,11 +22,11 @@ struct FirstOnBoardingViewModel: OnBoardingViewModelProtocol {
     var description: Driver<String>
     
     init(navigation: Navigation) {
-        title = BehaviorRelay<String>(value: "서로의 목소리가 닿다")
+        title = BehaviorRelay<String>(value: Constant.firstOnBoardingTitle.text)
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         
-        description = BehaviorRelay<String>(value: "닿다는 농인과의 소통을 위해 만들어졌습니다.")
+        description = BehaviorRelay<String>(value: Constant.firstOnBoardingDescription.text)
             .map { "\($0)" }
             .asDriver(onErrorRecover: { _ in .empty() })
         

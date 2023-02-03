@@ -37,6 +37,7 @@
 		73C89DD5298D047B00210C9A /* HomeViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD4298D047B00210C9A /* HomeViewCoordinator.swift */; };
 		73C89DD7298D04B100210C9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD6298D04B100210C9A /* HomeViewController.swift */; };
 		73C89DD9298D04E500210C9A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DD8298D04E500210C9A /* HomeViewModel.swift */; };
+		73C89DDC298D076B00210C9A /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C89DDB298D076B00210C9A /* Constant.swift */; };
 		73EFBFE72938EA6D0000687A /* SecondOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */; };
 		73FC86402934B3700024FA82 /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */; };
 		73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */; };
@@ -76,6 +77,7 @@
 		73C89DD4298D047B00210C9A /* HomeViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCoordinator.swift; sourceTree = "<group>"; };
 		73C89DD6298D04B100210C9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		73C89DD8298D04E500210C9A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		73C89DDB298D076B00210C9A /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnBoardingViewModel.swift; sourceTree = "<group>"; };
 		73FC863F2934B3700024FA82 /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		73FC86412934F4F50024FA82 /* FirstOnBoardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingViewModel.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				736B264E292F4030000A8388 /* Extension */,
+				73C89DDA298D072400210C9A /* Util */,
 				736B263A292F3CED000A8388 /* Common */,
 				7388CAED293CAAFA0011722B /* Home */,
 				73FC864E29388F780024FA82 /* SecondOnBoarding */,
@@ -210,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				73EFBFEA2938ED5F0000687A /* UI */,
-				73FC86452936082E0024FA82 /* OnBoardingViewModelProtocol.swift */,
+				73C89DDB298D076B00210C9A /* Constant.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -270,6 +273,14 @@
 				73EFBFE62938EA6D0000687A /* SecondOnBoardingViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C89DDA298D072400210C9A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				73FC86452936082E0024FA82 /* OnBoardingViewModelProtocol.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		73EFBFEA2938ED5F0000687A /* UI */ = {
@@ -411,6 +422,7 @@
 				73692256292DC2CC005D272B /* AppDelegate.swift in Sources */,
 				736B2647292F3E0B000A8388 /* Font.swift in Sources */,
 				7394C2E32939CE27002CDF09 /* SecondOnBoardingView.swift in Sources */,
+				73C89DDC298D076B00210C9A /* Constant.swift in Sources */,
 				736B2635292F39A8000A8388 /* AppCoordinator.swift in Sources */,
 				73EFBFE72938EA6D0000687A /* SecondOnBoardingViewModel.swift in Sources */,
 				73FC86422934F4F50024FA82 /* FirstOnBoardingViewModel.swift in Sources */,
