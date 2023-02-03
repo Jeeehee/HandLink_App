@@ -1,5 +1,5 @@
 //
-//  ViewModelProtocol.swift
+//  OnBoardingViewModelProtocol.swift
 //  HandLinkApp
 //
 //  Created by Jihee hwang on 2022/11/29.

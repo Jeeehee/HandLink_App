@@ -34,8 +34,8 @@ final class SecondOnboardingViewController: UIViewController {
         
         secondOnboardingView.snp.makeConstraints {
             $0.top.equalTo(view.safeAreaLayoutGuide)
-            $0.leading.equalTo(view.safeAreaLayoutGuide).offset(20)
-            $0.bottom.trailing.equalTo(view.safeAreaLayoutGuide).offset(-20)
+            $0.left.equalTo(view.safeAreaLayoutGuide).offset(20)
+            $0.bottom.right.equalTo(view.safeAreaLayoutGuide).offset(-20)
         }
     }
     
